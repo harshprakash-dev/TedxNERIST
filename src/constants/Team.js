@@ -16,16 +16,16 @@ const Team = [
     instagram: "https://www.instagram.com/shivangsh_",
     twiiter: "https://x.com/Shivangsh_D",
   },
-  {
-    name: "Harsh Prakash",
-    role: "Head of Operations & DevOps",
-    category: "NA",
-    img: "/images/team/Harsh.png",
-    linkedin: "https://www.linkedin.com/in/harshprakash06/",
-    instagram: "https://www.instagram.com/_xtemper_",
+  // {
+  //   name: "Harsh Prakash",
+  //   role: "Head of Operations & DevOps",
+  //   category: "NA",
+  //   img: "/images/team/Harsh.png",
+  //   linkedin: "https://www.linkedin.com/in/harshprakash06/",
+  //   instagram: "https://www.instagram.com/_xtemper_",
 
-    github: "https://github.com/harshprakash06",
-  },
+  //   github: "https://github.com/harshprakash06",
+  // },
   {
     name: "Chingkheinganba Haobam",
     role: "Devops",
