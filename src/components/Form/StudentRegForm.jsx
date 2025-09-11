@@ -385,12 +385,12 @@ export default function StudentRegForm() {
               className="mt-5 bg-black! text-white rounded-full p-4 md:p-5 cursor-pointer transition-transform duration-200"
             >
               {submitLoading ? (
-                <motion.span
+                <motion.div
                   animate={{ rotate: 360 }}
                   transition={{ repeat: Infinity, duration: 1, ease: "linear" }}
                 >
                   <Loader size={24} />
-                </motion.span>
+                </motion.div>
               ) : (
                 <ArrowRight size={24} />
               )}
