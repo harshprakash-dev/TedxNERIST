@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { motion, useInView } from "framer-motion";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import { logPageView } from "./constants/firebaseConfig";
+
 
 import {
   NotFoundPage,
@@ -32,11 +32,8 @@ import "./App.css";
 
 const isPhone = window.innerWidth >= 800;
 function TrackPageViews() {
-  const location = useLocation();
 
-  useEffect(() => {
-    logPageView(location.pathname); // Log page views on route change
-  }, [location]);
+
 
   return null;
 }
