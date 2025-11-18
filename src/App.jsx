@@ -79,19 +79,7 @@ function App() {
         <Route path="/refund" element={<NoRefundPolicy />} />
         <Route path="/term" element={<TermsAndConditions />} />
 
-        <Route
-          path="/team"
-          element={
-            <>
-              <Navbar />
-              <div className="Team-section">
-                {isPhone ? <PeopleSection /> : <PeopleSectionPhone />}
-              </div>
-
-              <Footer />
-            </>
-          }
-        />
+        
         <Route
           path="/"
           element={
